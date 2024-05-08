@@ -1,0 +1,223 @@
+header {
+    /* background-color: aquamarine; */
+    height: 90vh;
+    background-image: url(bgimg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#mylastacncor{
+    color: #24292d;
+}
+
+
+.container {
+    cursor: pointer;
+}
+
+
+.nav-pills {
+    background: antiquewhite;
+    margin: 0 59px;
+    padding: 9px;
+    border-radius: 15px;
+    background: rgba(6, 106, 201, 0.1);
+}
+
+
+#my-sectionsecond-card {
+    width: 100%;
+    overflow: hidden;
+    padding: 54px;
+    /* visibility: hidden; */
+    display: none;
+    z-index: -1;
+
+    /* position: relative; */
+}
+
+#mysectionSc {
+    z-index: 1;
+
+    /* position: absolute; */
+    width: 100%;
+    overflow: hidden;
+    padding: 54px;
+    background-color: #fff;
+    display: none;
+}
+#mysectionSctwo {
+    z-index: 1;
+
+    /* position: absolute; */
+    width: 100%;
+    overflow: hidden;
+    padding: 54px;
+    background-color: #fff;
+    display: none;
+}
+#mysectionSctwothird {
+    z-index: 1;
+
+    /* position: absolute; */
+    width: 100%;
+    overflow: hidden;
+    padding: 54px;
+    background-color: #fff;
+    display: none;
+}
+#mysectionSctwothirdForth {
+    z-index: 1;
+
+    /* position: absolute; */
+    width: 100%;
+    overflow: hidden;
+    padding: 54px;
+    background-color: #fff;
+    display: none;
+}
+#bom{
+    visibility: hidden;
+}
+
+#my-sectionsecond-card-a{
+color: #24292d;
+font-weight: 500;
+text-decoration: auto;
+font-size: 21px;
+}
+
+
+.bg-info {
+    /* height: 60%; */
+
+    width: 100%;
+    margin: 0 7px;
+    /* padding: 15px; */
+
+
+background-color: rgb(66 145 161) !important;
+
+}
+
+
+.my-gride-card-slider{
+    width: 100%;
+    /* height: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 15px;
+    background-color:white;
+}
+
+.cartbecome-last{
+    margin: 0 auto;
+
+}
+
+.main-gridesystem-availeble {
+    margin: 0 auto;
+    width: 32%;
+    /* border: 2px solid; */
+    margin-bottom: 15px;
+    display: flex;
+    /* grid-template-columns: (auto ()); */
+    /* grid-template-columns: repeat(auto-fit(min); */
+    /* grid-template-columns: repeat(auto-fit, minmax(100px 30fr)); */
+    /* border: 1px solid; */
+}
+/* .carousel.pointer-event{} */
+
+.main-gridesystem-availeble-inner{
+    width: 100%;
+}
+
+.carousel-item{
+    width: 100%;
+}
+@media screen and (max-width:500px) {
+    .my-gride-card-slider{
+
+        display: block;
+        /* flex-direction: column; */
+    }
+
+    #my-id-secondgride-sytem{
+        /* display: grid;   */
+
+        /* grid-template-columns: repeat(auto-fit, minmax(100px 30fr)); */
+
+        width: 100%;
+        margin-bottom: 15px;
+        margin: 0 8px;
+    }
+
+    .main-gridesystem-availeble{
+        margin-bottom: 15px;
+    }
+
+    header {
+        /* background-color: aquamarine; */
+        height: 90vh;
+        background-image: none;
+        width: 100%;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        background-size: cover;
+    }
+
+    #mydiv-bk {
+        background-color: aquamarine;
+        height: 100%;
+        background-image: url(bgimg.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+        background-position-x: 6%;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:768px) {
+
+
+
+    .my-sectionsecond-card {
+        /* width: 100%; */
+        /* overflow: hidden; */
+        padding: 0px;
+        margin: 0 6px;
+    }
+
+    .nav-pills {
+
+        /* background: antiquewhite; */
+        margin: 0 5px;
+        /* padding: 6px; */
+        /* border-radius: 15px; */
+        /* background: rgba(6, 106, 201, 0.1); */
+        /* width: 83%; */
+    }
+
+
+}
+    
+
+    @media screen and (min-width:1450px) {
+
+        .cartbecome-last{
+
+            margin: 0 auto;
+        }
+
+.main-gridesystem-availeble {
+
+    width: 23%;
+}
+    }
