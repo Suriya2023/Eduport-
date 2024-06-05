@@ -8,7 +8,7 @@
                         
                     // }
                     if (document.getElementById("mysectionSc").style.display =="block") {
-                    document.getElementById("mysectionSc").style.display="none"
+                    // document.getElementById("mysectionSc").style.display="none"
                         
                     } else {
                     document.getElementById("mysectionSc").style.display="block"
@@ -25,7 +25,7 @@
                         
                     // }
                     if (document.getElementById("my-sectionsecond-card").style.display =="block") {
-                    // document.getElementById("my-sectionsecond-card").style.display="none"
+                    document.getElementById("my-sectionsecond-card").style.display="none"
                         
                     } else {
                     document.getElementById("my-sectionsecond-card").style.display="block"
