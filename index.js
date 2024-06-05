@@ -25,7 +25,7 @@
                         
                     // }
                     if (document.getElementById("my-sectionsecond-card").style.display =="block") {
-                    document.getElementById("my-sectionsecond-card").style.display="none"
+                    // document.getElementById("my-sectionsecond-card").style.display="none"
                         
                     } else {
                     document.getElementById("my-sectionsecond-card").style.display="block"
@@ -43,7 +43,7 @@
                         
                     // }
                     if (document.getElementById("mysectionSctwo").style.display =="block") {
-                    document.getElementById("mysectionSctwo").style.display="none"
+                    // document.getElementById("mysectionSctwo").style.display="none"
                         
                     } else {
                     document.getElementById("mysectionSctwo").style.display="block"
@@ -61,7 +61,7 @@
                         
                     // }
                     if (document.getElementById("mysectionSctwothird").style.display =="block") {
-                    document.getElementById("mysectionSctwothird").style.display="none"
+                    // document.getElementById("mysectionSctwothird").style.display="none"
                         
                     } else {
                     document.getElementById("mysectionSctwothird").style.display="block"
@@ -79,7 +79,7 @@
                         
                     // }
                     if (document.getElementById("mysectionSctwothirdForth").style.display =="block") {
-                    document.getElementById("mysectionSctwothirdForth").style.display="none"
+                    // document.getElementById("mysectionSctwothirdForth").style.display="none"
                         
                     } else {
                     document.getElementById("mysectionSctwothirdForth").style.display="block"
@@ -90,7 +90,7 @@
                     // var ul = document.getElementById("bom");
         
                         if (document.getElementById('bom').style.visibility  == "visible") {
-                            document.getElementById('bom').style.visibility="hidden"
+                            // document.getElementById('bom').style.visibility="hidden"
                         } else {
                             document.getElementById('bom').style.visibility="visible"
                         }
